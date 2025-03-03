@@ -1,0 +1,68 @@
+/* Code Editor Container */
+.code-editor-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+h3 {
+  text-align: center;
+  color: #ffcc00;
+}
+
+/* Monaco Editor Styling */
+/* Ensure text is visible inside Monaco Editor */
+.monaco-editor {
+  background-color: #e1e1e1 !important; /* Dark background */
+  color: #ffffff !important; /* White text */
+}
+
+.monaco-editor .view-lines {
+  color: #ffffff !important; /* Ensures code is visible */
+}
+
+
+/* Options Section */
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Language Selector */
+select {
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 6px;
+}
+
+/* Run Button */
+button {
+  padding: 8px 12px;
+  background-color: #ff5733;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e04e2b;
+}
+
+.output {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #282a36;
+  border-radius: 8px;
+  min-height: 80px;
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+}
